@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<udm.DeploymentPackage version="PKG_VERSION" application="APP1/app1">
+
+  <deployables>
+    <tomcat.War name="/petclinic" file="/target/petclinic.war">
+      <tags />
+      <scanPlaceholders>false</scanPlaceholders>
+      <preScannedPlaceholders>false</preScannedPlaceholders>
+      <placeholders />
+      <fileEncodings>
+        <entry key=".+\.properties">ISO-8859-1</entry>
+      </fileEncodings>
+      <isRescanned>false</isRescanned>
+      <contextRoot>petclinic</contextRoot>
+    </tomcat.War>
+  </deployables>
+
+</udm.DeploymentPackage>
